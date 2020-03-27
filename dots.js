@@ -3,11 +3,13 @@ ctx = canvas.getContext('2d'),
 dots = [],
 // changeable
 amount = 180, // relative (amount per sqrt(width+height)px / 100)
-speed = 3, // max speed (0-speed) [px per 10sec]
-size = 2, // max size (0-size)
+speed = 3.5, // max speed (0-speed) [px per 10sec]
+size = 2.5, // max size (0-size)
 lineWidth = 1.5,
-connectionDistance = 150,
-color = 'hsl(200, 40%, 50%)',
+connectionDistance = 260,
+opacity = 0.8, // 0.1 - 1
+color = 'hsla(200, 40%, 50%, '+opacity+')',
+// color = 'hsl(200, 40%, 50%)',
 shadowColor = 'hsl(210, 40%, 60%)',
 shadowBlur = 12;
 //
